@@ -5,7 +5,7 @@ const desorderedArray = [
 const indioArray = [2, 6, 13, 21, 36, 47, 63, 81, 97];
 const indioArrDesor = [13, 2, 6, 97, 81, 63, 47, 21, 36];
 
-const recursiveBS = function (array, numBuscado) {
+const BSwhileLoop = function (array, numBuscado) {
   // 1) Chequear si los inputs son válidos:
   //puedo usar distintos tipos de formas de chequear los inputs. Lo dejo a elección libre. Esto es una referencia:
   if (!array || typeof numBuscado !== "number") {
